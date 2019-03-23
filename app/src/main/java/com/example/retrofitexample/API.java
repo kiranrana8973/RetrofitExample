@@ -18,11 +18,10 @@ public interface API {
     Call<ResponseBody> CreateStudent(
             @Field("fname") String fname,
             @Field("lname") String lname,
-            @Field("dob")String dob,
+            @Field("dob") String dob,
             @Field("username") String username,
             @Field("password") String password
-            );
-
+    );
 
 
 }
